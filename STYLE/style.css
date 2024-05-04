@@ -1,0 +1,88 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+} 
+body{
+    
+    width: 100vw;
+    height: auto;
+    background-attachment: fixed;  
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(2, 2, 2, 0.5)), url("https://media.timeout.com/images/106001846/750/422/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    
+    
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px 0 60px;
+  margin-top: 15px;
+}
+.list{
+    display: flex;
+    gap: 40px;
+    list-style:none;
+    color: #f9b108;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.navbar button{
+    height: 30px;
+    width: 80px;
+    background-color:#ff0000 ;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.navbar img{
+    width: 100px;
+    width: 70px;
+    
+}
+.hero{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 50px;
+    
+
+}
+.hero h1{
+    text-align: center;
+    font-size: 70px;
+    line-height: 78px;
+    color: #f9b108;
+    font-weight: 900;
+    font-stretch: narrower;
+}
+.hero div button{
+    padding: 20px 40px;
+    background-color: red;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    margin: 20px; 
+}
+.hero div img{
+    height: 100px;
+    width: 100px;
+    mix-blend-mode:color-burn;
+    padding-left: 89%;
+    
+}
+     
